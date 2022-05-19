@@ -1,0 +1,20 @@
+CREATE TABLE watch_store(id INTEGER PRIMARY KEY, watch TEXT, price INTEGER, color TEXT, country TEXT);
+
+INSERT INTO watch_store VALUES
+(1, "Fossil", 100, "Silver", "USA"),
+(2, "Movado", 500, "Bronze", "USA"),
+(3, "Rolex", 40000, "Gold", "USA"),
+(4, "Timex", 155, "Black", "USA"),
+(5, "Audemar", 75000, "Brown", "Germany"),
+(6, "Sturling", 135, "White", "Germany"),
+(7, "Casio", 175, "Red", "Canada"),
+(8, "Swatch", 88, "Rainbow", "Swiss"),
+(9, "Seiko", 40, "Clear", "US"),
+(10, "Orient", 135, "Black", "Japan"),
+(11, "Omega", 5800, "Blue", "USA"),
+(12, "Baume & Mercier", 2750, "Chrome", "Swiss"),
+(13, "TAG Heuer", 1250, "Gray", "Swiss"),
+(14, "Blancpain", 14500, "Gun MetaL Gray", "France"),
+(15, "Hamilton", 395, "Green", "USA");
+ 
+ SELECT * FROM watch_store ORDER BY price desc;

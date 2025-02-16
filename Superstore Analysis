@@ -1,0 +1,12 @@
+select price, item_name
+from superstore
+order by price;
+
+Select AVG(price)
+from superstore;
+
+Select AVG(price)
+from superstore
+where category = 'Kitchen Supplies';
+
+-- How many coffee makers are in stock?
